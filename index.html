@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>PLWHA</title>
+  <script type="text/javascript" src="app.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+      <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <link href="http://allfont.net/allfont.css?fonts=norwester" rel="stylesheet" type="text/css" />
+      <link href="http://allfont.net/allfont.css?fonts=time-roman-bold" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+<div className="top-nav clearfix">
+  <div id="headerbar">
+   <Link to="/">
+            <img
+              className="logo"
+              src="./images/logo.png"
+              alt="logo"
+              />
+    </div>
+</div>
+
+
+<div id="intro">
+    <div id="header" class="container">
+        <h1>A Look into HIV/AIDS in NYC Today </h1>
+  </div>
+</div>
+
+
+<div id="plots">
+      <iframe width="500" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~anniebnyc/5.embed?show_link=false"></iframe>
+      <iframe width="500" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~anniebnyc/14.embed?show_link=false"></iframe>
+      <iframe width="500" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~anniebnyc/17.embed?show_link=false"></iframe>
+
+</div>
+
+
+  <div id="keyfindings">
+        <h4>KEY FINDINGS - NYC 5 BOROUGHS*</h4>
+        <h6>PLWHA = People Living with HIV/AIDS</h6>
+        <ul>
+          <li>There are over 120,000 people in the 5 boroughs living with HIV/AIDS</li>
+          <li>The number of PLWHA has increased an average of 1.4% each year for the last 5 years</li>
+          <li>New York leads the nation in the number of new HIV cases</li>
+          <li>HIV is the third leading cause of death for NYC residents ages 35 to 54</li>
+          <li>In NYC, 50% of HIV-positive New Yorkers are over fifty</li>
+          <li>In 2014, over 60% of new HIV Diagnoses in NYC were among 20-39 year olds</li>
+        </ul>
+
+
+      <div id="footnotes">
+        <p> *Data takes awhile to collect so after year-end, it takes almost two years for all the statistics and records to be updated.  This Data is based on 2009-2014 records.</p>
+  </div>
+   </div>
+   </div>
+
+
+
+  <div id="maps">
+      <h2> HIV/AIDS - MAPS BY YEAR</h2>
+          <p>CHOOSE A YEAR AND HOVER OVER THE BOROUGH FOR HIV/AIDS STATS</p>
+           <div id="Midline">
+            <button id="button1" >2009</button>
+            <button id="button2" >2010</button>
+            <button id="button3" >2011</button>
+            <button id="button4" >2012</button>
+            <button id="button5" >2013</button>
+            <button id="button6" >2014</button>
+          </div>
+
+           <div id="map2009">
+              <button id="buttonX">X</button>
+              <iframe width="100%" height="520" frameborder="0" src="https://annieburns.carto.com/viz/a39c5f3e-a139-11e6-8a45-0e3ebc282e83/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+
+           <div id="map2010">
+              <button id="buttonX2">X</button>
+              <iframe width="100%" height="520" frameborder="0" src="https://annieburns.carto.com/viz/f10ab81b-d865-40a8-ab10-0d831b72df48/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+
+             <div id="map2011">
+              <button id="buttonX3">X</button>
+              <iframe width="100%" height="520" frameborder="0" src="https://annieburns.carto.com/viz/29120de5-19a9-4e59-ab58-f6ece696bb32/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+
+             <div id="map2012">
+              <button id="buttonX4">X</button>
+              <iframe width="100%" height="520" frameborder="0" src="https://annieburns.carto.com/viz/342d16e8-c978-4105-881f-41196f2018f9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+
+             <div id="map2013">
+              <button id="buttonX5">X</button>
+              <iframe width="100%" height="520" frameborder="0" src="https://annieburns.carto.com/viz/5e9e2041-537f-4ab1-938f-429cebfcd797/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+
+             <div id="map2014">
+              <button id="buttonX6">X</button>
+              <iframe width="100%" height="520" frameborder="0" src="https://annieburns.carto.com/viz/d374a14c-b50c-4090-ab10-ae3de0e39663/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+            </div>
+      </div>
+
+
+
+
+  <div id="charts">
+        <h3>TOTAL PEOPLE LIVING WITH HIV/AIDS 2014 - By AGE GROUP</h3>
+                  <script src="https://d3js.org/d3.v4.min.js"></script>
+                        <script>
+                              var margin = {top: 10, right: 10, bottom: 20, left: 40},
+                              width = 500,
+                              height = 400;
+
+                              var x = d3.scaleBand()
+                              .range([0, width])
+                              .padding(0.1);
+                              var y = d3.scaleLinear()
+                              .range([height, 0]);
+
+                              var svg = d3.select("body").append("svg")
+                              .attr("width", width + margin.left + margin.right)
+                              .attr("height", height + margin.top + margin.bottom)
+                              .append("g")
+                              .attr("transform",
+                              "translate(" + margin.left + "," + margin.top + ")");
+
+                              d3.csv("age.csv", function(error, data) {
+                              if (error) throw error;
+
+                              data.forEach(function(d) {
+                              d.total = +d.total;
+                              });
+
+                              x.domain(data.map(function(d) { return d.agegroup; }));
+                              y.domain([0, d3.max(data, function(d) { return d.total; })]);
+
+                              svg.selectAll(".bar")
+                              .data(data)
+                              .enter().append("rect")
+                              .attr("class", "bar")
+                              .attr("x", function(d) { return x(d.agegroup); })
+                              .attr("width", x.bandwidth())
+                              .attr("y", function(d) { return y(d.total); })
+                              .attr("height", function(d) { return height - y(d.total); });
+
+                              svg.append("g")
+                              .attr("transform", "translate(0," + height + ")")
+                              .call(d3.axisBottom(x));
+
+                              svg.append("g")
+                              .call(d3.axisLeft(y));
+
+                              });
+
+                        </script>
+    </div>
+
+
+<div id="footer">
+  <h1>RESOURCES</h1>
+  <p> You are NOT alone. There are free HIV testing facilities, free medical coverage for qualifying HIV/AIDs patients, support groups -- you name it. NYC has one of the strongest HIV/AIDS communities in the world. </p>
+  <a href="http://www.health.ny.gov/diseases/aids/general/about/hlthcare.htm#adap" class="myButton">HIV Uninsured Care Programs</a>
+  <a href="https://www1.nyc.gov/site/hra/help/hiv-aids-services.page" class="myButton">HIV/AIDS Services - HASA Insurance/Medical Services </a>
+  <a href="https://www.glwd.org/about/overview.jsp;jsessionid=7988D75EC4CFA7E3D8DBA4D022395020" class="myButton">God's Love We Deliver</a>
+  <a href="https://www.camba.org/programs/housing/housingforpeoplelivingwithhivaids" class="myButton">CAMBA - Housing for HIV/AIDS patients</a>
+  <a href="http://www.montefiore.org/hiv-aids" class="myButton">AIDS Center at Montefiore Medical Center</a>
+  <a href="http://www.ascnyc.org/eng/mission-statement/" class="myButton">ASCNYC</a>
+  <a href="https://gaycenter.org/wellness/hiv-aids" class="myButton">LGBT - The Center</a>
+  <a href="http://www.gmhc.org/get-tested-11" class="myButton">GMHC - Get Tested</a>
+  <a href="https://www.yelp.com/search?find_desc=Free+Hiv+Testing&find_loc=New+York%2C+NY" class="myButton">Free HIV Testing - Yelp Reviews</a>
+</div>
+
+
+</body>
+</html>

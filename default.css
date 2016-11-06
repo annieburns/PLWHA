@@ -1,0 +1,540 @@
+/* font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+*/ {
+  margin: 0;
+    padding: 0;
+}
+  html
+  {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body
+  {
+   text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #656565;
+    font-family: 'Norwester', arial;
+    background-color:white;
+    width:100%;
+  }
+
+
+/*********************************************************************************/
+/* HEader Banner                                                                       */
+/*********************************************************************************/
+
+  #headerbar {
+    z-index: -3;
+    background-color: black;
+    width: 100%;
+    height: 18em;
+
+  }
+
+/*********************************************************************************/
+/* Intro Text                                                                     */
+/*********************************************************************************/
+
+#intro{
+  font-family: 'Norwester', arial;
+  color: black;
+  width: 100%;
+  background-color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+h1{
+  color: black;
+  font-size: 2em;
+}
+
+/*********************************************************************************/
+/* pie                                                                    */
+/*********************************************************************************/
+
+
+#plots{
+  position:relative;
+  width:100%;
+  padding:0;
+  margin:0;
+  display:inline-block;
+  background-color: #444444;
+}
+
+
+/*#plots.div{
+  float:left;
+  width:25%;
+  height:25%;
+}*/
+
+/*********************************************************************************/
+/* Key Findings                                                                     */
+/*********************************************************************************/
+
+#keyfindings{
+  font-family: 'Norwester', arial;
+  color: white;
+  width: 100%;
+  background-color: #2471A3  ;
+  padding-top: 1em;
+  font-size: 2em;
+
+}
+
+
+h4
+  {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-weight: 700;
+    color: white;
+    font-size: 1.4em;
+  }
+
+h6{
+    font-size: 1em;
+    color: #6F6F6F;
+    padding: 0;
+     margin: 0;
+  }
+
+li {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: .9em;
+  margin-left: 15%;
+  padding-top: 0;
+  text-align: left;
+}
+
+
+#footnotes {
+  color: #D6DBDF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: .4rem;
+}
+
+/*********************************************************************************/
+/* maps                                                                  */
+/*********************************************************************************/
+
+#maps{
+  font-family: 'Norwester', arial;
+  width: 100%;
+  background-color: black;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  z-index: 5;
+}
+
+h2
+  {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-weight: 700;
+    color: pink;
+    font-size: 2em;
+
+  }
+
+p{
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  padding: 0;
+  margin: 0;
+}
+#Midline {
+  background-color: red;
+  position: relative;
+  top:0%;
+/*  height: 10%;*/
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Norwester', arial;
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: black;
+  border: none;
+ }
+
+
+
+#map2009, #map2010, #map2011, #map2012, #map2013, #map2014{
+background-color: black;
+display: none;
+height: 100%;
+width: 100%;
+z-index: 10;
+float:left;
+border: 3px solid #ff3300;
+}
+
+
+
+/* =======================
+BUTTONS
+======================= */
+
+#buttonX, #buttonX2, #buttonX3, #buttonX4, #buttonX5, #buttonX6 {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: black;
+  -webkit-text-stroke: 1px grey;
+  text-align: left;
+  font-family: 'Norwester', arial;
+  z-index: 5;
+  border: none;
+  display: block;
+  float: left;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6 {
+  background-color: black;
+  font-size: 1.6rem;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Norwester', arial;
+  z-index: 5;
+  display: block;
+  float: left;
+  border: 1px solid grey;
+   background-color: #FF5733;
+   margin-left: 10%;
+ }
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover
+{
+  background:-moz-linear-gradient(top, #FCF3CF 5%, #FCF3CF 100%);
+  background:-webkit-linear-gradient(top, #FCF3CF 5%, #FCF3CF 100%);
+  background:-o-linear-gradient(top, #FCF3CF 5%, #FCF3CF 100%);
+  background:-ms-linear-gradient(top, #FCF3CF 5%, #FCF3CF 100%);
+  background:linear-gradient(to bottom, #FCF3CF 5%, #FCF3CF 100%);
+  background-color:##1a770f;
+
+}
+
+
+
+
+/*********************************************************************************/
+/* charts                                                                */
+/*********************************************************************************/
+
+#charts{
+  font-family: 'Norwester', arial;
+  width: 100%;
+  background-color: white;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  height: 10em;
+}
+
+h3
+  {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-weight: 700;
+    color: black;
+    font-size: 2em;
+
+  }
+
+  svg {
+  z-index: 2;
+}
+
+
+.bar {
+  fill: #093377;
+  font-size: 1em;
+}
+
+
+g{
+  width:100%;
+  font-size: 15px;
+  text-anchor: start;
+  font-family: 'Roboto', sans-serif;
+}
+/*text {
+  font: 13px "Roboto", sans-serif;
+  text-anchor: end;
+  pointer-events: none;
+  z-index: 5;
+}*/
+
+
+
+
+/*********************************************************************************/
+/* footer                                                                */
+/*********************************************************************************/
+
+#footer{
+  font-family: 'Norwester', arial;
+  color: black;
+  width: 100%;
+  background-color: #D40000;
+  padding-top: .05em;
+  font-size: 2em;
+  height: 20em;
+}
+
+
+#footer p{
+  font-size: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+  color: white;
+ font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+/* =======================
+ Top Nav
+======================= */
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+   background-color: black;
+  }
+.top-nav {
+  background-color: #938172;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.logo {
+  display: block;
+  left: 10px;
+  max-height: 150px;
+  position: absolute;
+  top: 5px;
+}
+.top-nav_links {
+  float: right;
+  position:  relative;
+}
+.top-nav_links a {
+  color: #fff;
+  display: inline-block;
+  padding: 1.5rem 1.5rem 1.5rem 0;
+  text-decoration: none;
+}
+.top-nav_links a:hover {
+  color: #541F14;
+  font-family: airstream;
+  font-size: 1.5em;
+  padding: 1.21875rem 1.21875rem 1.21875rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 0em 3em;
+		background: #009E2D;
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+
+	.button:before
+	{
+		display: inline-block;
+		background: #FFC31F;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+
+
+
+
+
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+
+
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #009E2D;
+		color: rgba(255,255,255,.8);
+		text-align: center;
+	}
+
+	#featured a
+	{
+		color: rgba(255,255,255,1);
+	}
+
+	#featured .button
+	{
+		background: #FFF;
+		margin-top: 3em;
+		font-size: 1em;
+		color: #009E2D;
+	}
+
+	#featured .title
+	{
+	}
+
+
+	#featured .title .byline
+	{
+		color: rgba(255,255,255,.6);
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+
+
+/* =======================
+3. Middle Nav
+======================= */
+
+
+/*********************************************************************************/
+/* Resource BUTTONS                                                                  */
+/*********************************************************************************/
+
+.myButton {
+  background:linear-gradient(to bottom, #1a770f 5%, #1a770f 100%);
+  background-color:#1a770f;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid;
+  display:inline-block;
+  cursor:pointer;
+  color:white;
+  font-size:20px;
+  padding:.5%;
+  text-decoration:none;
+  margin: 1%;
+  font-family: 'Oswald', sans-serif;
+   box-shadow: inset 0 0 0 1px #27496d;
+}
+.myButton:hover {
+
+  background:-moz-linear-gradient(top, black 5%, black 100%);
+  background:-webkit-linear-gradient(top, black 5%, black 100%);
+  background:-o-linear-gradient(top, black 5%, black 100%);
+  background:-ms-linear-gradient(top, black 5%, black 100%);
+  background:linear-gradient(to bottom, black 5%, black 100%);
+  background-color:##1a770f;
+
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+

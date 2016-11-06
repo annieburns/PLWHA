@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS plwha_db;
+CREATE DATABASE plwha_db;
